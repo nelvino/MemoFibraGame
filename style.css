@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    font-family: fantasy;
+}
+
+.p {
+    text-align: center;
+}
+
+#numbers {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: inline-block;
+    background: url(./img/471175_3756119374126_1958905707_o.jpg) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border:#000 1px solid;
+	width:150px;
+	height:150px;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	text-align:center;
+}
+
+.card.done {
+    cursor: default;
+}
+
+.card.done:hover {
+    cursor: default;
+    box-shadow: none;
+}
+
+.card:hover {
+    box-shadow: inset 0px 0px 0px 2px red;
+}
+
+.pic1 {
+    background: url(./img/458746_4384026991424_1558588789_o.jpg) no-repeat;
+    background-size: cover;
+}
+
+.pic2 {
+    background: url(./img/DSCF0071.JPG) no-repeat;
+    background-size: cover;
+}
+
+.pic3 {
+    background: url(./img/DSCF0111.JPG) no-repeat;
+    background-size: cover;
+}
+
+.pic4 {
+    background: url(./img/DSCF0182.JPG) no-repeat;
+    background-size: cover;
+}
+
+.pic5 {
+    background: url(./img/DSCF0385.JPG) no-repeat;
+    background-size: cover;
+}
+
+.pic6 {
+    background: url(./img/DSCF0402.JPG) no-repeat;
+    background-size: cover;
+}
+
+.color-hidden {
+    display: inline-block;
+    background: url(./img/471175_3756119374126_1958905707_o.jpg) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border:#000 1px solid;
+	width:150px;
+	height:150px;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	text-align:center;
+}
