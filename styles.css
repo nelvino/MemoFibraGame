@@ -7,6 +7,10 @@ body {
     text-align: center;
 }
 
+#clickCountP {
+    padding-right: 40px;
+}
+
 #numbers {
     display: flex;
     justify-content: center;
@@ -14,7 +18,7 @@ body {
 
 .card {
     display: inline-block;
-    background: url(./img/471175_3756119374126_1958905707_o.jpg) no-repeat;
+    background: url(./img/ardilla.jpeg) no-repeat;
     background-size: cover;
     cursor: pointer;
     border:#000 1px solid;
@@ -40,38 +44,38 @@ body {
 }
 
 .pic1 {
-    background: url(./img/458746_4384026991424_1558588789_o.jpg) no-repeat;
+    background: url(./img/birds.jpeg) no-repeat;
     background-size: cover;
 }
 
 .pic2 {
-    background: url(./img/DSCF0071.JPG) no-repeat;
+    background: url(./img/chimp.jpeg) no-repeat;
     background-size: cover;
 }
 
 .pic3 {
-    background: url(./img/DSCF0111.JPG) no-repeat;
+    background: url(./img/dog.jpeg) no-repeat;
     background-size: cover;
 }
 
 .pic4 {
-    background: url(./img/DSCF0182.JPG) no-repeat;
+    background: url(./img/kangaroo.jpeg) no-repeat;
     background-size: cover;
 }
 
 .pic5 {
-    background: url(./img/DSCF0385.JPG) no-repeat;
+    background: url(./img/reptile.jpeg) no-repeat;
     background-size: cover;
 }
 
 .pic6 {
-    background: url(./img/DSCF0402.JPG) no-repeat;
+    background: url(./img/sheep.jpeg) no-repeat;
     background-size: cover;
 }
 
 .picture-hidden {
     display: inline-block;
-    background: url(./img/471175_3756119374126_1958905707_o.jpg) no-repeat;
+    background: url(./img/ardilla.jpeg) no-repeat;
     background-size: cover;
     cursor: pointer;
     border:#000 1px solid;
