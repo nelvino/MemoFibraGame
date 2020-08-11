@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    font-family: fantasy;
+}
+
+.p {
+    text-align: center;
+}
+
+#clickCountP {
+    padding-right: 40px;
+}
+
+#numbers {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: inline-block;
+    background: url(./img/ardilla.jpeg) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border:#000 1px solid;
+	width:150px;
+	height:150px;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	text-align:center;
+}
+
+.card.done {
+    cursor: default;
+}
+
+.card.done:hover {
+    cursor: default;
+    box-shadow: none;
+}
+
+.card:hover {
+    box-shadow: inset 0px 0px 0px 2px red;
+}
+
+.pic1 {
+    background: url(./img/birds.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.pic2 {
+    background: url(./img/chimp.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.pic3 {
+    background: url(./img/dog.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.pic4 {
+    background: url(./img/kangaroo.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.pic5 {
+    background: url(./img/reptile.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.pic6 {
+    background: url(./img/sheep.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.picture-hidden {
+    display: inline-block;
+    background: url(./img/ardilla.jpeg) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border:#000 1px solid;
+	width:150px;
+	height:150px;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	text-align:center;
+}
