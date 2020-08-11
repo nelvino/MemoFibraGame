@@ -4,16 +4,15 @@ let combosFound = 0;
 let clickCount = 0;
 let finalTime = 0;
 
+const $cardClicked = document.querySelectorAll('.card');
+
 //TIMER CODE
 const startTime = Date.now();
 const second = 1000;
 const minute = second * 60;
 const hour = minute * 60;
 const timerCount = document.getElementById('timer');
-
-function stopTimer() {
-    clearInterval(timer);
-}
+const millisecondsBetweenTimerUpdates = 250;
 
 function pad(n){
   return ('00' + n).slice(-2);
@@ -28,9 +27,12 @@ let timer = setInterval(function(){
   let seconds = pad(((difference % minute) / second) | 0);
 
   finalTime = timerCount.innerHTML = 'TIME: ' + hours + ':' + minutes + ':' + seconds;
-}, 250);
+}, millisecondsBetweenTimerUpdates);
 
 //GAME CODE
+$cardClicked.forEach(($click) => {
+    $click.addEventListener('click', onCardClicked);
+  });
 
 function winGame(){
     if (combosFound === pictures.length) {
@@ -77,7 +79,10 @@ function onCardClicked(e) {
 
     if (!clickedCard) {
         clickedCard = target;
-    } else if (clickedCard) {
+        return;
+    }
+    
+    if (clickedCard) {
         if (clickedCard.getAttribute('data-color') !== target.getAttribute('data-color')) {
                 preventClick = true;
                 setTimeout(() => {
